@@ -20,19 +20,19 @@ body {
 
 .button-row {
   display: flex;
-  flex-direction: row;      /* side by side */
-  gap: 10px;                /* space between buttons */
-  justify-content: space-between; /* spread buttons across row */
+  flex-direction: row;      
+  gap: 10px;                
+  justify-content: space-between; 
   width: 100%;
 }
 
 .menu-btn {
-  flex: 1;                  /* both buttons take equal width */
-  height: 260px;             /* make buttons slightly taller if needed */
+  flex: 1;                  
+  height: 320px; /* 🔹 increased button height */
 
   background: #1e1e1e;
   border: none;
-  border-radius: 0;         /* sharp corners */
+  border-radius: 0;         
 
   color: white;
   font-size: 22px;
@@ -51,8 +51,8 @@ body {
 }
 
 .menu-btn img {
-  width: auto;              /* keep width automatic */
-  height: 160px;            /* 🔹 increase triangle height */
+  width: auto;              
+  height: 180px; /* 🔹 slightly bigger image to match taller button */
   object-fit: contain;
   margin-bottom: 15px;
 }
