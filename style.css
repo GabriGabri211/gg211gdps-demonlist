@@ -32,7 +32,7 @@ body {
 .menu-btn {
   flex: 1;                  /* both buttons take equal width */
   min-width: 150px;          /* optional minimum width */
-  height: 800px;             /* taller buttons */
+  height: 400px;             /* taller buttons */
   background: #1e1e1e;
   border: none;
   border-radius: 20px;       /* rounded corners */
