@@ -9,7 +9,7 @@ body {
   background: #111;
   color: white;
   margin: 0;
-  padding: 10px; /* spacing from screen edges */
+  padding: 0 10px; /* 10px padding from screen edges */
 }
 
 .title {
@@ -20,19 +20,19 @@ body {
 
 .button-row {
   display: flex;
-  flex-direction: row;       /* buttons in a row */
-  gap: 20px;                 /* space between buttons */
-  justify-content: center;   /* center row */
+  flex-direction: row;      /* side by side */
+  gap: 10px;                /* space between buttons */
+  justify-content: space-between; /* spread buttons across row */
+  width: 100%;
 }
 
 .menu-btn {
-  flex: 1;                   /* each button takes equal width */
-  min-width: 150px;          /* optional minimum width */
+  flex: 1;                  /* both buttons take equal width */
   height: 220px;
 
   background: #1e1e1e;
   border: none;
-  border-radius: 0;          /* sharp 90° corners */
+  border-radius: 0;         /* sharp corners */
 
   color: white;
   font-size: 22px;
