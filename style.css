@@ -51,7 +51,7 @@ body {
 
 .menu-btn img {
   width: auto;              
-  height: 220px; /* 🔹 taller image to match taller button */
+  height: 400px; /* 🔹 taller image to match taller button */
   object-fit: contain;
   margin-bottom: 15px;
 }
