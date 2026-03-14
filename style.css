@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family:'Roboto', sans-serif;
   background:#111;
   color:white;
   margin:0;
@@ -15,8 +15,6 @@ body{
 
 .list-container{
   width:100%;
-  padding:0 10px;
-  box-sizing:border-box;
 }
 
 .button-group{
@@ -25,10 +23,12 @@ body{
   gap:20px;
 }
 
+/* buttons */
 .menu-btn{
-  width:100%;
-  height:220px;
+  width:calc(100% - 20px); /* full width minus margins */
+  margin:0 10px;
 
+  height:220px;
   background:#1e1e1e;
   border:none;
   border-radius:20px;
