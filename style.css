@@ -9,7 +9,7 @@ body {
   background: #111;
   color: white;
   margin: 0;
-  padding: 0 10px; /* 10px padding from screen edges */
+  padding: 0 10px; /* padding from screen edges */
 }
 
 .title {
@@ -20,18 +20,18 @@ body {
 
 .button-row {
   display: flex;
-  flex-direction: row;      
-  gap: 10px;                
-  justify-content: space-between; 
+  flex-direction: row;
+  gap: 10px; /* space between buttons */
   width: 100%;
+  justify-content: center;
 }
 
 .menu-btn {
-  flex: 1;                  
-  height: 1000px; /* 🔹 taller buttons */
+  width: calc(50% - 5px); /* two buttons with gap = 10px total */
+  height: 400px;           /* taller buttons */
   background: #1e1e1e;
   border: none;
-  border-radius: 20px; /* 🔹 rounded corners */
+  border-radius: 20px;     /* rounded corners */
 
   color: white;
   font-size: 22px;
@@ -50,8 +50,9 @@ body {
 }
 
 .menu-btn img {
-  width: auto;              
-  height: 400px; /* 🔹 taller image to match taller button */
+  width: auto;
+  height: 220px;           /* taller image to match button */
   object-fit: contain;
   margin-bottom: 15px;
 }
+
