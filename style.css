@@ -9,7 +9,7 @@ body {
   background: #111;
   color: white;
   margin: 0;
-  padding: 10px;
+  padding: 10px; /* spacing from screen edges */
 }
 
 .title {
@@ -18,29 +18,24 @@ body {
   text-align: center;
 }
 
-.list-container {
-  display: flex;           /* columns side by side */
-  flex-direction: row;     
-  gap: 20px;               /* space between columns */
-  justify-content: center;
-  align-items: flex-start; /* align top */
-}
-
-.column {
+.button-row {
   display: flex;
-  flex-direction: column;  /* buttons stack vertically inside column */
-  gap: 20px;               /* space between buttons */
+  flex-direction: row;       /* buttons in a row */
+  gap: 20px;                 /* space between buttons */
+  justify-content: center;   /* center row */
 }
 
 .menu-btn {
-  width: 200px;
+  flex: 1;                   /* each button takes equal width */
+  min-width: 150px;          /* optional minimum width */
   height: 220px;
+
   background: #1e1e1e;
   border: none;
-  border-radius: 0;        /* sharp corners */
+  border-radius: 0;          /* sharp 90° corners */
+
   color: white;
   font-size: 22px;
-  font-family: 'Roboto', sans-serif;
 
   display: flex;
   flex-direction: column;
