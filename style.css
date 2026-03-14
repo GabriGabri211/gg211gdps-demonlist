@@ -28,11 +28,10 @@ body {
 
 .menu-btn {
   flex: 1;                  
-  height: 320px; /* 🔹 increased button height */
-
+  height: 400px; /* 🔹 taller buttons */
   background: #1e1e1e;
   border: none;
-  border-radius: 0;         
+  border-radius: 20px; /* 🔹 rounded corners */
 
   color: white;
   font-size: 22px;
@@ -52,7 +51,7 @@ body {
 
 .menu-btn img {
   width: auto;              
-  height: 180px; /* 🔹 slightly bigger image to match taller button */
+  height: 220px; /* 🔹 taller image to match taller button */
   object-fit: contain;
   margin-bottom: 15px;
 }
