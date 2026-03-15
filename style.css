@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
   background: #111;
   color: white;
   margin: 0;
-  padding: 0 10px; /* padding from screen edges */
+  padding: 0 10px;
 }
 
 .title {
@@ -18,23 +18,20 @@ body {
   text-align: center;
 }
 
-
-
 .button-row {
   display: flex;
   flex-direction: row;
-  gap: 10px; /* space between buttons */
+  gap: 10px;
   width: 100%;
 }
 
 .menu-btn {
-  flex: 1;                  /* both buttons take equal width */
-  min-width: 150px;          /* optional minimum width */
-  height: 400px;             /* taller buttons */
+  flex: 1;
+  min-width: 150px;
+  height: 400px;
   background: #1e1e1e;
-  border: none;
-  border-radius: 20px;       /* rounded corners */
-  overflow: hidden;          /* ensure border-radius works */
+  border-radius: 20px;
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;
@@ -43,6 +40,7 @@ body {
 
   color: white;
   font-size: 22px;
+  text-decoration: none;
 
   cursor: pointer;
   transition: 0.2s;
@@ -54,11 +52,11 @@ body {
 
 .menu-btn img {
   width: auto;
-  height: 240px;            /* taller image to match taller button */
+  height: 240px;
   object-fit: contain;
   margin-bottom: 15px;
 }
 
 .menu-btn span {
-  font-weight: 700; /* 🔹 makes the text bold */
-}
+  font-weight: 700;
+}}
